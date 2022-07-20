@@ -51,6 +51,7 @@ p{
 
 #ingredients ul{
     text-align: left !important;
+    list-style-type: "-";
 }
 
 #ingredients > img{

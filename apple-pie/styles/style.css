@@ -67,10 +67,15 @@ p{
     padding: 50px 0px 50px 0px;
 }
 
+ul{
+    padding-left: 0px;
+}
+
 
 ol {
     list-style: none;
     color:rgb(44, 44, 44, 0.7);
+    padding-left: 0px;
   }
   
   ol > li {
@@ -82,4 +87,24 @@ ol {
     content: counter(listCounter) ")";
     margin-right: 0.5rem;
 
+  }
+
+  .img-info{
+    width: 400px;
+    height: 200px;
+    background-image: url("../images/cooking-info.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+  }
+  
+  .img-ingredients{
+    width: 400px;
+    height: 200px;
+    background-image: url("../images/recipe-info.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
   }

@@ -13,6 +13,8 @@ h1{
 
 h3{
     font-size: 2rem;
+    color:rgb(44, 44, 44, 0.7);
+    text-align: left;
 }
 
 p{
@@ -23,6 +25,7 @@ p{
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100vw;
     height: 70vh;
     display: flex;
@@ -42,6 +45,7 @@ p{
 
 #info p {
     text-align: left;
+    color:rgb(44, 44, 44, 0.7)
 }
 
 #ingredients{
@@ -52,6 +56,7 @@ p{
 #ingredients ul{
     text-align: left !important;
     list-style-type: "-";
+    color:rgb(44, 44, 44, 0.7)
 }
 
 #ingredients > img{
@@ -61,3 +66,20 @@ p{
 #directions{
     padding: 50px 0px 50px 0px;
 }
+
+
+ol {
+    list-style: none;
+    color:rgb(44, 44, 44, 0.7);
+  }
+  
+  ol > li {
+    counter-increment: listCounter;
+    margin-bottom: 0.4rem;
+
+  }
+  ol > li::before {
+    content: counter(listCounter) ")";
+    margin-right: 0.5rem;
+
+  }
